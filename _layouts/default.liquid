@@ -2,11 +2,37 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }} - Reno DuBois</title>
+		<title>{{ page.title }} - Reno DuBois</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				max-width: 700px;
+				margin-top: 30px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			header {
+				margin-bottom: 20px;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			header a {
+				margin-right: 10px;
+			}
+		</style>
     </head>
     <body>
+	<header>
+		<a href='/' style='font-weight: bold; text-decoration: none; color: black;'>Reno DuBois</a>
+		<div>
+			<a href='https://github.com/renodubois'>GitHub</a>
+			<a href='https://git.sr.ht/~reno'>SourceHut</a>
+			<a href='https://twitter.com/renoinmo'>Twitter</a>
+		</div>
+	</header>
     <div>
-      <h2>{{ page.title }}</h2>
       {{ page.content }}
     </div>
   </body>
