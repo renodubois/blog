@@ -1,6 +1,5 @@
 ---
 layout: default.liquid
-
 title: First Post
 ---
 
